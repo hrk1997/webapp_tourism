@@ -1,0 +1,5 @@
+const username = document.getElementById('username')
+const email = document.getElementById('email')
+const password = document.getElementById('password')
+const create = document.getElementById('create')
+const form = document.getElementById('form')
