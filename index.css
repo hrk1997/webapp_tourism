@@ -3,14 +3,15 @@
     box-sizing: border-box;
     margin: 0%;
     padding: 0%;
-    background-color: #222222;
+    background-color: rgb(1, 1, 19);
+    /* background-image: url("https://www.youtube.com/watch?v=R83BlU5nnbs"); */
     }
     
 li,a,button{
     font-family: sans-serif;
     font-weight: 500;
     font-size: 16px;
-    color: aliceblue;
+    color: #4d4d65;
     text-decoration: none;
 }
 header{
@@ -39,7 +40,7 @@ header{
 button{
     margin-left: 20px;
     padding: 9px 25px;
-    background-color: rgb(116, 113, 112);
+    background-color: rgb(228, 62, 6);
     border: none;
     border-radius: 5px;
     transition: all 0.3s ease 0s;
@@ -51,8 +52,27 @@ button:hover{
 img{
     width: 40px;
     height: 40px;
+    margin-top: 1px;
+    margin-left: -92px;;
 }
-.mid{
-    background-image: url("photos/marine_drive_kochi_254.jpg");
-    background-size: cover;
+
+h1{
+    text-align: center;
+    margin-top: -66px;
+    margin-left: -762px;
+    color: #4d4d65;
+}
+iframe{
+    height: 400px;
+    width: 500px;
+    margin-top: 50px;
+    margin-left: 20px;
+    
+}
+.iframe1{
+    height: 400px;
+    width: 500px;
+    margin-top: 50px;
+    margin-left: 50px;
+    
 }

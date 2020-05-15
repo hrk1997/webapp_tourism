@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="login2.css">
+</head>
+<body>
+
+
+
+<!-- <form class="box" action="index.html" ></form> -->
+    
+    <div class="container">
+  <form action="index.html">
+      <h1>Singup</h1>
+    <input type="text" id="fname" name="usrname"  placeholder="username" required>
+    <input type="email" id="email" name="usrname" placeholder="email" required>
+    <input type="text" id="usrname" name="usrname" placeholder="username" required>
+    <input type="password" id="psw" name="psw" placeholder="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
+    <input type="text" id="usrname" name="usrname" placeholder="mobile" required>
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+<div id="message">
+  <h3>Password must contain the following:</h3>
+  <p id="letter" class="invalid">A <b>lowercase</b> letter</p>
+  <p id="capital" class="invalid">A <b>capital (uppercase)</b> letter</p>
+  <p id="number" class="invalid">A <b>number</b></p>
+  <p id="length" class="invalid">Minimum <b>8 characters</b></p>
+</div>
+				
+
+</body>
+</html>

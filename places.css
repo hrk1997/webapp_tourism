@@ -30,7 +30,7 @@ body{
   position: absolute;
   width: 14px;
   height: 4px;
-  background: rgb(255, 174, 0);
+  background: rgb(34, 34, 34);
   transform: skewX(50deg);
   transition: .4s linear;
 }

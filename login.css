@@ -3,6 +3,11 @@ body{
   padding: 0;
   font-family: sans-serif;
   background: #191919;
+  /* background-image: url('https://media.giphy.com/media/U3qYN8S0j3bpK/giphy.gif'); */
+}
+h1{
+  text-align: center;
+  color: #2ecc71;
 }
 .box{
   width: 300px;
@@ -13,6 +18,7 @@ body{
   transform: translate(-50%,-50%);
   background: #191919;
   text-align: center;
+  /* background-image: url(https://media.giphy.com/media/U3qYN8S0j3bpK/giphy.gif); */
 }
 .box h1{
   color: white;
@@ -22,13 +28,28 @@ body{
   border-radius: 24px;
   padding: 10px 10px;
 }
-.box input[type = "text"],.box input[type = "password"]{
+.email{
+  border:0;
+  background:#191919 ;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #2ecc71;
+  padding: 14px 10px;
+  width: 200px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+
+}
+.box input[type = "email"],.box input[type = "password"]{
   border:0;
   background: none;
   display: block;
   margin: 20px auto;
   text-align: center;
-  border: 2px solid #3498db;
+  border: 2px solid #2ecc71;
   padding: 14px 10px;
   width: 200px;
   outline: none;
@@ -36,9 +57,10 @@ body{
   border-radius: 24px;
   transition: 0.25s;
 }
-.box input[type = "text"]:focus,.box input[type = "password"]:focus{
+.box input[type = "email"]:focus,.box input[type = "password"]:focus{
   width: 280px;
-  border-color: #2ecc71;
+  background:none;
+  border-color: #3498db;
 }
 .box input[type = "submit"]{
   border:0;
@@ -55,5 +77,31 @@ body{
   cursor: pointer;
 }
 .box input[type = "submit"]:hover{
+  background: #3498db;
+}
+button{
+  border:0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #2ecc71;
+  padding: 14px 40px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+  text-decoration: solid;
+
+}
+button:hover{
   background: #2ecc71;
+}
+a{
+  text-decoration: none;
+  color: azure;
+}
+.form{
+  margin-top: -25px;
 }
